@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BM Trivia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="quiz-box">
+            <div class="quiz-content">
+                <h1>Battle Monument Quiz</h1>
+                <div class="quiz-header">
+                    <span>Trentoniana</span>
+                    <span class="header-score">
+                        Score: 0 / 5
+                    </span>
+                </div>
+
+                <h2 class="question-text">Who is at the top of the Battle Monument?</h2>
+
+                <div class="option-list">
+                    <!-- <div class="option">
+                        <span>A. George Washington</span>       
+                    
+                    </div>
+                    <div class="option">
+                        <span>B. Abhraham Lincoln</span>       
+                    
+                    </div>
+                    <div class="option">
+                        <span>C. Barack Obama</span>       
+                    
+                    </div>
+                    <div class="option">
+                        <span>D. Franklin Roosevelt</span>       
+                    
+                    </div> -->
+                </div>
+
+                <div class="quiz-footer">
+                    <span class="question-total">1 of 5 Questions</span>
+                    <button class="nxt-btn">Next</button>
+                </div>
+
+            </div>
+
+            <div class="result-box">
+                <h2>Quiz Result!</h2>
+                <div class="percentage-container">
+                    <div class="circular-progress">
+                        <span class="progress-value">0%</span>
+                    </div>
+
+                    <span class="score-text">Your Score 0 out of 5</span>
+                </div>
+
+                <div class="buttons">
+                    <button class="tryAgain">Try Again</button>
+                    <button class="goHome">Go to Home</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="hero">
+
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="media/IICT_Battle_Monument.mp4" type="video/mp4">
+            </video>
+    
+    
+            <div class="content">
+                <h1 id="header">Battle Monument Trivia</h1>
+                <!-- <a href="#">Start</a> -->
+                <button class="st_btn">Start</button>
+            </div>        
+    
+        </div>
+    </div>
+
+
+    <!-- Info box -->
+    <div class="pre_quiz">
+        <div class="title">
+            <span>Before the Trivia Starts...</span>
+        </div>
+        <div class="pre-quiz-list">
+            <div class="info">1. This quiz contains <span>5 multiple choice questions</span></div>
+            <div class="info">2. Once you select an answer, it cannot be undone</div>
+            <div class="info">3. Quiz can be retaken more than once </div>
+            <div class="info">4. You cannot exit from the quiz while playing</div>
+        </div>
+
+        <div class="info_buttons">
+            <button class="info-btn exit">Exit Quiz</button>
+            <a href="#" class="info-btn continue">Continue</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="questions.js"></script>
+
+</body>
+
+</html>
