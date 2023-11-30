@@ -167,7 +167,8 @@ body {
     width: 100%;
     background: rgb(150, 110, 87);
     position: relative;
-    left: -50%;
+    left: 50%;
+    /* left: 0; */
     transition: .25s;
     display: flex;
     justify-content: center;
@@ -380,6 +381,22 @@ body {
     font-weight: 600;
     margin-top: 20px;
 }
+
+/* .result-footer {
+    padding-left: 323px;
+    padding-top: 10px;
+} */
+
+/* .results-btn {
+    color:brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.results-btn:hover {
+    color: rgb(84, 48, 27);
+} */
 
 .buttons button {
     width: 130px;

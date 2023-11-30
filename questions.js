@@ -5,13 +5,9 @@ let questions = [
         question: "Who is at the top of the Battle Monument?",
         answer: "B. George Washington",
         options: [
-            "A. Abhraham Lincoln",
-            "B. George Washington",
-            "C Barack Obama",
-            "D. Franklin Roosevelt"
+            2
         ]
     },
-
     {
         numb: 2,
         question: "How tall is the Battle Monument?",
@@ -47,7 +43,7 @@ let questions = [
       },
       {
         numb: 5,
-        question: "How much did it cost to visit the top of the monument?",
+        question: "How much did it cost to visit the top of the monument in the 1940s?",
         answer: "C. 10 cents",
         options: [
           "A. 75 cents",
