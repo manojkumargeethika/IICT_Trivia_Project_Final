@@ -5,7 +5,11 @@ let questions = [
         question: "Who is at the top of the Battle Monument?",
         answer: "B. George Washington",
         options: [
-            2
+            "A. Abraham Lincoln",
+            "B. George Washington",
+            "C. Barack Obama",
+            "D. Franklin Roosevelt"
+            
         ]
     },
     {
