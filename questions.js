@@ -26,11 +26,11 @@ let questions = [
     {
         numb: 3,
         question: "The height of the Battle Monument matches the height of which other famous monument?",
-        answer: "C. Column of Marcus Aurelius in Rome",
+        answer: "C. Bowman's Hill in Buck's County, PA",
         options: [
           "A. Arc de Triomphe in Paris",
           "B. Statue of Liberty",
-          "C. Column of Marcus Aurelius in Rome",
+          "C. Bowman's Hill in Buck's County, PA",
           "D. Washington Monument"
         ]
     },

@@ -144,7 +144,7 @@ function showResultBox() {
     resultBox.classList.add('active');
 
     const scoreText = document.querySelector('.score-text');
-    scoreText.textContent = `Your Score ${userScore} out of ${questions.length}`;
+    scoreText.textContent = `Your Score: ${userScore} out of ${questions.length}`;
 
     const circularProgress = document.querySelector('.circular-progress');
     const progressValue = document.querySelector('.progress-value');
